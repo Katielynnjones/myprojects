@@ -1,0 +1,47 @@
+.header {
+    margin: 0;
+    padding: 0;
+    color: blue;
+    font-family: cursive;
+    text-align: center;
+}
+
+.resources {
+    border: 5px solid lightpink;
+}
+
+.center {
+  width: 200;
+  height: 300; 
+  margin: 5px; 
+  }
+
+  .description {
+    margin: 5px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+  }
+
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; font-family: 'Times New Roman', Times, serif;
+    font-size: x-small;}
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  background-color: white;
+  padding: 5px;
+}
+
+.grid-container > div {
+  background-color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}

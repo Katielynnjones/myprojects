@@ -1,29 +1,38 @@
 .header {
     margin: 0;
     padding: 0;
-    color: blue;
+    color: darkred;
     font-family: cursive;
     text-align: center;
 }
 
 .resources {
-    border: 5px solid lightpink;
+    border: 5px solid navy;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    font-size: 20px;
 }
 
 .link {
-    color: black;
+    color: ghostwhite;
     text-decoration: none;
 }
 
-.link:hover {color:lightblue;
+.plink {
+  color: lightslategray;
+    text-decoration: none;
+}
+
+.link:hover {color: darkgoldenrod;
     text-decoration: underline;}
+
+.plink:hover {color: darkcyan;
+      text-decoration: underline;}
 
 .projectHead{
     color: black;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .center {
